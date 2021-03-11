@@ -26,6 +26,15 @@
     overflow-x: hidden;
   }
 /*=======================================*/
+  .content4 {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .single-box {
+    margin: 20px 5px;
+    height: 600px;
+  }
+/*=======================================*/
   .lesson{
     font-size: small;
     margin-left: 80px;
@@ -65,19 +74,35 @@
   .our-service {
     padding: 30px 10px;
   }
+  .our-service h1 {
+    font-size: 24px;
+  }
   .service,
   .figure {
     width: 50%;
   }
+  .portfolio h1 {
+    font-size: 24px;
+  }
+  .portfolio p {
+    font-size: 18px;
+  }
   .images img {
     max-width: 230px;
     overflow-x: hidden;
-}
+  }
 /*=======================================*/
+.content4 {
+  height: auto;
+}
 .single-box {
   margin: 20px 20px;
+  height: 400px;
 }
-
+.img-box {
+  width: 120px;
+  height: 120px; 
+}
 .txt-box p {
   font-size: x-small;
 }
